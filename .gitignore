@@ -1,0 +1,4 @@
+/excalidraw-mcp
+web/node_modules/
+.DS_Store
+*.test

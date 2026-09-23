@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+html, body, #root, .editor { width: 100%; height: 100%; margin: 0; }
+body { font-family: system-ui, sans-serif; overflow: hidden; }
+.loading {
+  width: 100%; height: 100%; display: grid; place-content: center; gap: 0.5rem;
+  text-align: center; color: #34304a; background: #f8f7ff;
+}
+.loading strong { font-size: 1.4rem; }
+.loading span { color: #6b6680; }
+.status {
+  position: fixed; z-index: 10; right: 12px; bottom: 12px; padding: 6px 10px;
+  border: 1px solid #d9d6e8; border-radius: 8px; background: rgb(255 255 255 / 92%);
+  color: #5a556d; font-size: 12px; box-shadow: 0 2px 8px rgb(36 31 53 / 12%);
+  pointer-events: none;
+}
